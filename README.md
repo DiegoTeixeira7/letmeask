@@ -33,4 +33,6 @@ $ cd letmeask
 # Instale as dependências
 $ sudo apt-get update
 $ yarn install | npm install
+
+# Execute o projeto
 $ yarn start   | npm start
