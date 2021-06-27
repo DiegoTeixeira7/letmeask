@@ -8,8 +8,8 @@ import answerImg from '../assets/images/answer.svg';
 import { Button } from '../components/Button';
 import { Question } from '../components/Question';
 import { RoomCode } from '../components/RoomCode';
-// import { useAuth } from '../hooks/useAuth';
 import { useRoom } from '../hooks/useRoom';
+import { useTheme } from '../hooks/useTheme';
 import { database } from '../services/firebase';
 
 import '../styles/room.scss';
@@ -19,10 +19,11 @@ type RoomParams = {
 }
 
 export function AdminRoom() {
-  // const { user } = useAuth()
   const history = useHistory();
   const params = useParams<RoomParams>();
   const roomId = params.id;
+
+  const { theme } = useTheme();
 
   const { questions, title } = useRoom(roomId);
 
@@ -53,7 +54,7 @@ export function AdminRoom() {
   }
 
   return (
-    <div id="page-room">
+    <div id="page-room" className={theme}>
       <header>
         <div className="content">
           <img src={logoImg} alt="Letmeask" />

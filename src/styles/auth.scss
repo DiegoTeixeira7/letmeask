@@ -3,6 +3,9 @@
   align-items: stretch;
   height: 100vh;
 
+  &.dark {
+    background: #696969;
+  }
 
   aside {
     flex: 7;
@@ -140,6 +143,28 @@
       height: 1px;
       background: #a8a8b3;
       margin-left: 16px;
+    }
+  }
+
+  .button-theme {
+    margin-top: 64px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    background: #8899aa;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    border: 0;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
     }
   }
 }
