@@ -25,7 +25,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ### :information_source: Como usar:
 
-Para clonar e executar este aplicativo, você precisará do Git instalado em seu computador. Na linha de comando:
+Para clonar e executar esta aplicação, você precisará do Git instalado em seu computador. Na linha de comando:
 
 ```bash
 # Clonar este repositório
