@@ -1,6 +1,11 @@
 <div align="center">
     <img alt="letmeask" src="./src/assets/images/logo.svg" />
     <br/>
+    <img alt="Linguagens" src="https://img.shields.io/github/languages/count/DiegoTeixeira7/letmeask">
+    <img alt="Linguagem principal" src="https://img.shields.io/github/languages/top/DiegoTeixeira7/letmeask">
+    <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/DiegoTeixeira7/letmeask">
+    <img alt="Última modificação" src="https://img.shields.io/github/last-commit/DiegoTeixeira7/letmeask">
+    <img alt="Licença" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </div>
 
 # :question: Letmeask v1.0
